@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:label="SideSense 增强"
+        android:icon="@android:drawable/sym_def_app_icon"
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <!-- legacy Xposed metadata (ignored by Vector, kept for compatibility) -->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="Sony Side Sense 增强：横屏可唤起侧感栏，只有触摸才显示侧感条" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="93" />
+    </application>
+</manifest>
